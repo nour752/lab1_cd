@@ -5,9 +5,9 @@
     username: nourdziri
     password: 21238899@
     email: nourdziri5@gmail.com
-- name: Push to docker hub
+- name: Tag and push to docker hub
   docker_image:
-    name: "devops"
-    repository: nour752/lab1_cd
+    name: devops
+    repository: nourdziri/lab_cd
     push: yes
-    tag: latest
+    source: local
