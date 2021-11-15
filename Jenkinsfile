@@ -24,13 +24,6 @@ pipeline {
                 }
             }
         }
-        stage('ng Build') {
-             steps{
-                script{
-                    sh "sudo ng build"
-                }
-            }
-        }
         stage('Docker') {
              steps{
                 script{
