@@ -10,4 +10,5 @@
     name: devops
     repository: nourdziri/lab_cd
     push: yes
+    tag: latest
     source: local
