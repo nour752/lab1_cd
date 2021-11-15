@@ -12,3 +12,8 @@
     push: yes
     tag: latest
     source: local
+- name: rm docker hub
+  docker_image:
+    state: absent
+    name: nourdziri/lab_cd
+    tag: latest
